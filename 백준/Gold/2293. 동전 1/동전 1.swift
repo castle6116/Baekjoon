@@ -9,8 +9,6 @@ for _ in 0..<n {
     coin.append(Int(readLine()!)!)
 }
 
-coin.sort()
-
 dp[0] = 1
 for c in coin {
     for i in stride(from: c, through: k, by: 1) {
