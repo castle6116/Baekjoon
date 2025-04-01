@@ -1,12 +1,4 @@
 func solution(_ info: [[Int]], _ n: Int, _ m: Int) -> Int {
-    // 예외 처리
-    if n <= 0 || m <= 0 {
-        return -1
-    }
-    if info.isEmpty {
-        return 0
-    }
-
     let itemCount = info.count
 
     // DP 배열 초기화 (메모리 최적화)
